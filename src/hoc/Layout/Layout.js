@@ -5,8 +5,8 @@ import classes from './Layout.module.css'
 class Layout extends Component {
     render() {
         return (
-            <div className={ classes.div }>
-                <main className={ classes.main }>
+            <div className={ classes.Layout }>
+                <main>
                     { this.props.children }
                 </main>
             </div>

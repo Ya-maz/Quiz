@@ -9,3 +9,11 @@
     background: #e9e245;
     transition: background .3s ease-in-out;
 }
+
+.AnswerItem.success {
+    background: olivedrab;
+}
+
+.AnswerItem.error {
+    background: crimson;
+}
